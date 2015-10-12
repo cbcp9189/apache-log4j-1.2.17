@@ -57,14 +57,6 @@ public class MyPatternLayout extends PatternLayout {
    * main function
    * @param args 
    */
-  public
-  static void main(String[] args) {
-    Layout layout = new MyPatternLayout("[counter=%.10#] - %m%n");
-    System.out.println(layout);  //print 
-    //create cbdev branch ,add description
-    Logger logger = Logger.getLogger("some.cat");
-    logger.addAppender(new ConsoleAppender(layout, ConsoleAppender.SYSTEM_OUT));
-    logger.debug("Hello, log");
-    logger.info("Hello again...");    
+  public static void main(String[] args) { 
   }
 }
