@@ -34,7 +34,7 @@ import org.apache.log4j.helpers.PatternParser;
 
   @see MyPatternParser
   @see org.apache.log4j.PatternLayout
-  @author Anders Kristensen 
+  @author bo
 */
 public class MyPatternLayout extends PatternLayout {
   public
