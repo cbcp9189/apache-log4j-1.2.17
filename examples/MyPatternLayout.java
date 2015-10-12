@@ -53,6 +53,10 @@ public class MyPatternLayout extends PatternLayout {
       pattern == null ? DEFAULT_CONVERSION_PATTERN : pattern);
   }
   
+  /**
+   * main function
+   * @param args 
+   */
   public
   static void main(String[] args) {
     Layout layout = new MyPatternLayout("[counter=%.10#] - %m%n");
