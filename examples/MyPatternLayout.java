@@ -59,11 +59,6 @@ public class MyPatternLayout extends PatternLayout {
    */
   public
   static void main(String[] args) {
-    Layout layout = new MyPatternLayout("[counter=%.10#] - %m%n");
-    System.out.println(layout);  //print 
-    Logger logger = Logger.getLogger("some.cat");
-    logger.addAppender(new ConsoleAppender(layout, ConsoleAppender.SYSTEM_OUT));
-    logger.debug("Hello, log");
-    logger.info("Hello again...");    
+    
   }
 }
